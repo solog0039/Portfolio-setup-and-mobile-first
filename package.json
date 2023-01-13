@@ -1,0 +1,27 @@
+{
+  "name": "portfolio-setup-and-mobile-first",
+  "version": "1.0.0",
+  "description": "This is my first project at Microverse.\r ## Built With\r .HTML\r .CSS\r ## Getting Started\r to implement and run this project you should have the following prerequisites  \r ## Prerequisites\r Text editor,\r browser like crome.\r if you have the above mentioned  prerequistes you can clone the project by using the link(https://github.com/haftamudesta/portfolio) to your text editor and run it on your local machine.\r ## Author\r   [Github](https://github.com/solog0039)\r   [linkedin](www.linkedin.com/in/solomon-kidanu-62a994232)\r   [tiwtter](https://twitter.com/Solomon57320119)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solog0039/Portfolio-setup-and-mobile-first.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/solog0039/Portfolio-setup-and-mobile-first/issues"
+  },
+  "homepage": "https://github.com/solog0039/Portfolio-setup-and-mobile-first#readme",
+  "devDependencies": {
+    "hint": "^7.1.3",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  }
+}
