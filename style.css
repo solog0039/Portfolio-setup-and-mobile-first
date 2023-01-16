@@ -1,26 +1,27 @@
 @font-face {
   font-family: 'Roboto';
-  src: url(../fonts/Roboto-Regular.ttf) format(ttf);
+  src: url(./assets/fonts/Roboto-Regular.ttf);
 }
 
 @font-face {
   font-family: 'Crete Round';
-  src: url(fonts/CreteRound-Regular.ttf) format(ttf);
+  src: url(./assets/fonts/CreteRound-Regular.ttf);
 }
 
 @font-face {
   font-family: 'Poppins';
-  src: url(fonts/Poppins-Regular.ttf) format(ttf);
+  src: url(./assets/fonts/Poppins-Regular.ttf);
 }
 
 @font-face {
   font-family: 'Inter';
-  src: url(fonts/Inter-VariableFont_slnt,wght.ttf) format(ttf);
+  src: url(./assets/fonts/Inter-VariableFont_slnt,wght.ttf);
 }
 
+/* Please check to be sure that you have this or that the template has this */
 @font-face {
   font-family: 'InaiMathi';
-  src: url(fonts/Murasuit.ttf) format(ttf);
+  src: url(./assets/fonts/Murasuit.ttf); 
 }
 
 html,
@@ -166,6 +167,7 @@ table {
 .humberger {
   display: flex;
   flex: 1;
+  padding-right: 12px;
 }
 
 .humberger:hover {
@@ -191,7 +193,7 @@ table {
 .first-page {
   min-height: 90vh;
   background: #1c1a19;
-  background-image: url("/assets/images/Group.png");
+  background-image: url("./assets/images/Group.png");
   background-repeat: no-repeat;
   background-position: 69vw 50vh;
 }
@@ -199,7 +201,8 @@ table {
 .headline {
   display: flex;
   flex-direction: column;
-  padding: 5%;
+  gap: 12px;
+  padding: 0 24px;
 }
 
 .hey {
@@ -230,14 +233,16 @@ table {
   font-size: 16px;
   line-height: 24px;
   color: #fff;
+  max-height: 123px;
 }
 
 .socila-link {
   display: flex;
-  justify-content: space-around;
+  gap: 20px;
+  /*justify-content: space-around;*/
   color: #dbd8d7;
   width: 70vw;
-  padding: 10px;
+  padding: 12px 35px;
 }
 
 .social:hover {
