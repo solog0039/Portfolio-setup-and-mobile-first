@@ -152,6 +152,7 @@ table {
   border-spacing: 0;
 }
 
+/* main code */
 .toolbar {
   display: flex;
   flex: 1;
@@ -163,7 +164,6 @@ table {
 }
 
 .humberger {
-  background-color: #acb7c3;
   display: flex;
   flex: 1;
 }
@@ -181,6 +181,7 @@ table {
   font-size: 18px;
   line-height: 24px;
   display: flex;
+  text-decoration: none;
 }
 
 .name:hover {
@@ -192,8 +193,7 @@ table {
   background: #1c1a19;
   background-image: url("/assets/images/Group.png");
   background-repeat: no-repeat;
-  background-position-x: 68vw;
-  background-position-y: 30vh;
+  background-position: 69vw 35vh;
 }
 
 .headline {
@@ -203,12 +203,13 @@ table {
 }
 
 .hey {
+  margin-top: 10vh;
   color: #ff6b00;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: 56px;
-  line-height: 64px;
+  font-weight: 200;
+  font-size: 36px;
+  line-height: 48px;
   letter-spacing: 0.37px;
 }
 
@@ -236,6 +237,7 @@ table {
   justify-content: space-around;
   color: #dbd8d7;
   width: 70vw;
+  padding: 10px;
 }
 
 .social:hover {
