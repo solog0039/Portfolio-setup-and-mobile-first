@@ -189,11 +189,11 @@ table {
 }
 
 .first-page {
-  min-height: 80vh;
+  min-height: 90vh;
   background: #1c1a19;
   background-image: url("/assets/images/Group.png");
   background-repeat: no-repeat;
-  background-position: 69vw 35vh;
+  background-position: 69vw 50vh;
 }
 
 .headline {
@@ -203,13 +203,13 @@ table {
 }
 
 .hey {
-  margin-top: 10vh;
+  margin-top: 20vh;
   color: #ff6b00;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
-  font-weight: 200;
-  font-size: 36px;
-  line-height: 48px;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
   letter-spacing: 0.37px;
 }
 
