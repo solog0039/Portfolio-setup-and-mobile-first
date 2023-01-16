@@ -1,0 +1,249 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url(./assets/fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Crete Round';
+  src: url(./assets/fonts/CreteRound-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url(./assets/fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url(./assets/fonts/Inter-VariableFont_slnt,wght.ttf);
+}
+
+/* Please check to be sure that you have this or that the template has this */
+@font-face {
+  font-family: 'InaiMathi';
+  src: url(./assets/fonts/Murasuit.ttf);
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* main code */
+.toolbar {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  background: #3c3a39;
+  padding: 5%;
+  min-height: 5vh;
+}
+
+.humberger {
+  display: flex;
+  flex: 1;
+  padding-right: 12px;
+}
+
+.humberger:hover {
+  color: white;
+}
+
+.name {
+  flex: 1;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  text-decoration: none;
+}
+
+.name:hover {
+  text-decoration: underline;
+}
+
+.first-page {
+  min-height: 90vh;
+  background: #1c1a19;
+  background-image: url("./assets/images/Group.png");
+  background-repeat: no-repeat;
+  background-position: 69vw 50vh;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 0 24px;
+}
+
+.hey {
+  margin-top: 20vh;
+  color: #ff6b00;
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+}
+
+.softwaredev {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  color: #fff5e1;
+}
+
+.headline-p {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  max-height: 123px;
+}
+
+.socila-link {
+  display: flex;
+  gap: 20px;
+  color: #dbd8d7;
+  width: 70vw;
+  padding: 12px 35px;
+}
+
+.social:hover {
+  background-color: blue;
+}
