@@ -21,7 +21,7 @@
 /* Please check to be sure that you have this or that the template has this */
 @font-face {
   font-family: 'InaiMathi';
-  src: url(./assets/fonts/Murasuit.ttf); 
+  src: url(./assets/fonts/Murasuit.ttf);
 }
 
 html,
@@ -239,7 +239,6 @@ table {
 .socila-link {
   display: flex;
   gap: 20px;
-  /*justify-content: space-around;*/
   color: #dbd8d7;
   width: 70vw;
   padding: 12px 35px;
