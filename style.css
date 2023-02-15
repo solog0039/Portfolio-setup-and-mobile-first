@@ -237,6 +237,7 @@ table {
 }
 
 .socila-link {
+  margin-top: 20px;
   display: flex;
   gap: 20px;
   color: #dbd8d7;
